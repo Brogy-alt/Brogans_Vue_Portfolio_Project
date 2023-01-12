@@ -34,8 +34,21 @@ footer {
 h1,h2,h3,h4,h5,p{
   color: rgb(255, 255, 255);
 }
-body{
-   
-  background: linear-gradient(rgb(131, 3, 219 ), rgb(81, 27, 183));
+
+body {
+  background-image: linear-gradient(rgb(131, 3, 219 ), rgb(81, 27, 183));
+  background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
 }
 </style>
+
+
+
+
+
+
+
+
+
+-

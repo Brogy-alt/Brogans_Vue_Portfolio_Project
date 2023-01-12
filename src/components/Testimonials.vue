@@ -1,21 +1,20 @@
 <template>
-    <body>
-        
     
-     <section class="container">
         
-<div class="row">
-<div class="card h-100" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
-  <img :src="list.img" class="card-img-top" style="height:20rem;">
-  <div class="card-body" >
-    <h5 class="card-title">{{ list.Person }}</h5>
-    <p class="card-text">{{ list.Comment }}.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-</section>
-</body>
+        <div class="container">
+            
+            <div class="row">
+                <div class="card h-100" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
+                    <img :src="list.img" class="card-img-top" style="height:20rem;">
+                    <div class="card-body" >
+                        <h5 class="card-title">{{ list.Person }}</h5>
+                        <p class="card-text">{{ list.Comment }}.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
 
 
 

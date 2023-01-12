@@ -1,7 +1,7 @@
 <template>
      <!-- Skills section -->
      <section class="container">
-        <div class="skillsbox">
+        <!-- <div class="skillsbox">
         <div class="skills border border-light border-2">
             <div class="row d-flex flex-column flex-md-row">
                 <h2 class="text-center">My Skills</h2>
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        </div> -->
 
     </section>
 
