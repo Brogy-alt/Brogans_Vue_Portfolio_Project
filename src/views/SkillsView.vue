@@ -1,7 +1,6 @@
 <template>
-    <NavBar/>
+    
     <Skills/>
-    <Footer/>
     
     
    
@@ -14,12 +13,12 @@
  export default {
    name: 'HomeView',
    components: {
-     NavBar,
+    
      Skills,
-     Footer
+   
    }
  }
  
  </script>
  
- z
+ 

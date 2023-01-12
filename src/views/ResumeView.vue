@@ -13,9 +13,9 @@
  export default {
    name: 'HomeView',
    components: {
-     NavBar,
+    
      Resume,
-     Footer
+   
    }
  }
  

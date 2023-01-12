@@ -1,13 +1,12 @@
 <template>
-   <NavBar/>
+   
    <About/>
-   <Footer/>
+   
    
   
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
-import Footer from '@/components/Footer.vue'
+
 import About from '@/components/About.vue'
 
 
@@ -16,9 +15,7 @@ import About from '@/components/About.vue'
 export default {
   name: 'HomeView',
   components: {
-    NavBar,
     About,
-    Footer
   }
 }
 

@@ -86,7 +86,7 @@
           <a class="nav-link" href="/skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/testimonials">Testimonails</a>
+          <a class="nav-link" href="/testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contact">Contact</a>

@@ -1,7 +1,24 @@
 <template>
+  <NavBar></NavBar>
   
   <router-view/>
+  <Footer/>
 </template>
+
+
+<script>
+
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
+
+export default {
+   components: {
+     NavBar,
+     Footer
+   }
+ }
+
+</script>
 
 <style>
 
@@ -29,6 +46,7 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 h1,h2,h3,h4,h5,p{
@@ -39,7 +57,7 @@ body {
   background-image: linear-gradient(rgb(131, 3, 219 ), rgb(81, 27, 183));
   background-repeat: no-repeat;
         background-size: cover;
-        height: 100%;
+        height: 100vh
 }
 </style>
 
