@@ -3,15 +3,7 @@
         <section class="container">
         
         <div class="row">
-        <!-- <div class="card h-100" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
-          <img :src="list.img" class="card-img-top" style="height:20rem;">
-          <div class="card-body" >
-            <h5 class="card-title">{{ list.Project }}</h5>
-            <a {{ list.Github }} class="btn btn-primary">Github</a>
-            <a {{ list.Netlify }} class="btn btn-primary">Netlify</a>
-            
-          </div>
-        </div> -->
+    
         <div class="card" v-for="list in items" :key="list" style="width: 18rem;">
   <img class="card-img-top" :src="list.img" alt="Card image cap">
   <div class="card-body">
@@ -63,6 +55,8 @@ export default {
 <style>
 
 
-
+body{
+    height: 100vh;
+}
     
 </style>

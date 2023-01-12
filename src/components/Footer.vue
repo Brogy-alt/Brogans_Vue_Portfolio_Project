@@ -1,6 +1,6 @@
 <template >
-    <footer class="footer bg-light text-dark text-center fixed-bottom mt-5">
-        <p class="lead">&copy; Copyright 2022 | All Rights Reserved.</p>
+    <footer class="footer bg-light text-center fixed-bottom mt-5">
+        <p class="lead text-dark">&copy; Copyright 2022 | All Rights Reserved.</p>
     </footer>
 </template>
 <script>
@@ -11,10 +11,7 @@ export default {
 </script>
 <style>
 
-footer {
-    display: flex;
-    background-color: black;
-}
+
 
 /* Footer */
 /* .footer{

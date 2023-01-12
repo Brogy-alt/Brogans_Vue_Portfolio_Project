@@ -1,4 +1,7 @@
 <template>
+    <body>
+        
+    
      <section class="container">
         
 <div class="row">
@@ -12,6 +15,7 @@
 </div>
 </div>
 </section>
+</body>
 
 
 

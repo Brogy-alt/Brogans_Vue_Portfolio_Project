@@ -1,5 +1,5 @@
 <template>
-    <header class="sticky-top">
+    <header class="">
         <!-- <nav class="navbar navbar-expand-lg bg-light text-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
