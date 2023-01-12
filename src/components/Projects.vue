@@ -1,112 +1,66 @@
 <template>
-    <!-- <section class="container">
+
+        <section class="container">
         
-        <h2> Below are the projects that I have worked on : </h2>
-
-        <div class="row g-5">
-            <div class="col-11 col-md-4">
-                <img class="images" src="" style="max-width: 100%; height: auto;"
-                    alt="image1" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/repairwebsite.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-repair-site.netlify.app/" target="_blank" class="btn btn-dark btn-lg active"
-                    role="button" aria-pressed="true">Netlify</a>
-            </div>
-
-            <div class="col-11 col-md-4">
-                
-                <img class="images" src="https://i.postimg.cc/25chHgYs/Screenshot2.jpg" style="max-width: 100%; height: auto;"
-                    alt="image2" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/Mini_project.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-portfolio-practice.netlify.app/" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Netlify</a>
-            </div>
-
-            <div class="col-11 col-md-4">
-                <img class="images" src="..." style="max-width: 100%; height: auto; "
-                    alt="image3" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/Mini_project.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-ecommerce.netlify.app/" target="_blank" class="btn btn-dark btn-lg active"
-                    role="button" aria-pressed="true">Netlify</a>
-            </div>
+        <div class="row">
+        <!-- <div class="card h-100" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
+          <img :src="list.img" class="card-img-top" style="height:20rem;">
+          <div class="card-body" >
+            <h5 class="card-title">{{ list.Project }}</h5>
+            <a {{ list.Github }} class="btn btn-primary">Github</a>
+            <a {{ list.Netlify }} class="btn btn-primary">Netlify</a>
+            
+          </div>
+        </div> -->
+        <div class="card" v-for="list in items" :key="list" style="width: 18rem;">
+  <img class="card-img-top" :src="list.img" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">{{ list.project }}</p>
+    <a :href="list.github" target="_blank" class="btn btn-primary">Github</a>
+    <a :href="list.netlify " target="_blank" class="btn btn-primary">Nelify</a>
+  </div>
+</div>
         </div>
-        <br>
-        <div class="row g-5">
-            <div class="col-11 col-md-4">
-                <img class="images" src="https://i.postimg.cc/2yB67Kj7/Screenshot1.jpghttps://i.postimg.cc/2yB67Kj7/Screenshot1.jpg" style="max-width: 100%; height: auto;"
-                    alt="image1" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/repairwebsite.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-repair-site.netlify.app/" target="_blank" class="btn btn-dark btn-lg active"
-                    role="button" aria-pressed="true">Netlify</a>
-            </div>
-
-            <div class="col-11 col-md-4">
-                        
-                <img class="images" src="https://i.postimg.cc/25chHgYs/Screenshot2.jpg" style="max-width: 100%; height: auto;"
-                    alt="image2" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/Mini_project.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-portfolio-practice.netlify.app/" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Netlify</a>
-            </div>
-
-  
-            <div class="col-11 col-md-4">
-                
-                <img class="images" src="https://i.postimg.cc/15G6x8Pc/Screenshot3.jpg" style="max-width: 100%; height: auto; "
-                    alt="image3" loading="lazy">
-
-                <a href="https://github.com/Brogy-alt/Mini_project.git" target="_blank"
-                    class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Github</a>
-
-                <a href="https://brogans-ecommerce.netlify.app/" target="_blank" class="btn btn-dark btn-lg active"
-                    role="button" aria-pressed="true">Netlify</a>
-            </div>
-        </div>
-        <br>
-    </section> -->
+        </section>
 
 </template>
 <script>
 export default {
-    name : 'Project', 
+    name : 'Projects',
+
+    data(){
+        return {
+            items : [
+                {
+                    img : 'https://i.postimg.cc/2yB67Kj7/Screenshot1.jpghttps://i.postimg.cc/2yB67Kj7/Screenshot1.jpg',
+                    project:'Repaire website',
+                    github: "https://github.com/Brogy-alt/repairwebsite.git",
+                    netlify : "https://brogans-repair-site.netlify.app/ ",
+
+                },
+                {
+                    img : 'https://i.postimg.cc/15G6x8Pc/Screenshot3.jpg',
+                    project : 'Mini project',
+                    github: "https://github.com/Brogy-alt/Mini_project.git",
+                    netlify: "https://brogans-ecommerce.netlify.app/x",
+
+                },
+                {
+                    img : 'https://i.postimg.cc/25chHgYs/Screenshot2.jpg"',
+                    project : 'Ecommerce',
+                    github : "https://github.com/Brogy-alt/Mini_project.git ",
+                    netlify : "https://brogans-ecommerce.netlify.app/",
+
+                }
+                
+              ]
+            }
+        }
 }
 
 
 </script>
 <style>
-
-.grid {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-.images {
-    border-radius: 5%;
-    padding-top: 2rem;
-    width: 390px;
-
-}
-
-section {
-    padding: 10px 0rem;
-   
-}
 
 
 

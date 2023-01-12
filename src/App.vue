@@ -31,8 +31,11 @@ footer {
   color: #2c3e50;
 }
 
+h1,h2,h3,h4,h5,p{
+  color: rgb(255, 255, 255);
+}
 body{
-  background-image: radial-gradient(circle, #000000a8 0%, #1f1e1e 100%);
-  color: #FDF7FF;
+  background-image: radial-gradient(circle, #000000a8 0%, #161313 100%);
+  
 }
 </style>

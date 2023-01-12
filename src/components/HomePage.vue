@@ -4,12 +4,12 @@
         <!--Home-->
         <section id="home" class="container min-vh-100">
             <div class="row d-flex flex-column flex-md-row ">
-                <div class=" home-text col">
+                <!-- <div class=" home-text col">
                     <h1 class="name lead ">Brogan Gys</h1>
                     <h5 class="lead">Aspiring developer</h5>
                     <h5 class="lead">Music producer</h5>
-                </div>
-                <div class="col">
+                </div> -->
+                <!-- <div class="col">
                     <img src="https://i.postimg.cc/Zn4hrwKW/C11-Brogan-Gys-3.jpg" style="max-width: 60%; height: 50;"
                         alt="Brogans Profile" class="rounded mx-auto d-block">
                         <div class="pt-3">
@@ -23,7 +23,7 @@
                             
                         </center>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -44,41 +44,11 @@ export default {
     padding: 10px 0rem;
 }
 
-#home {
-    margin: auto;
-    width: 73%;
-    height: 100vh;
-    padding-top: 10%
-    /* margin-top: 10rem; */
-}
-body {
-   
-    font-size: 19px;
-    font-family: 'Hind Vadodara', sans-serif;
-    /* padding: 5rem 1rem; */
-    overflow-x: hidden;
-}
-
- h1{
-    font-weight: 700;
-}
-
-h5{
-    color: #FDF7FF;
-}
-
-.name {
-    font-size: 80px;
-    color: #FDF7FF;
-    display: flex;
-    margin-right: 2rem
-}
-
 
 
 main {
 
-background: linear-gradient(rgba( 0,0,0,.7), rgba( 0,0,0,.7)) , url(https://i.postimg.cc/Vvh9RJq3/Back3.jpg);
+background: url(https://i.postimg.cc/1zMNgtfb/maxim-berg-6-NP-Cd-Nqt-U-unsplash.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

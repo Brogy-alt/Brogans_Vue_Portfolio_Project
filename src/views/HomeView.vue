@@ -2,7 +2,7 @@
 
   <NavBar/>
   <HomePage/>
-  <Footer/>
+
   
 </template>
 
@@ -18,7 +18,7 @@ export default {
   components: {
     NavBar,
     HomePage,
-    Footer
+   
   }
 }
 </script>
