@@ -21,7 +21,7 @@
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+      <a class="navbar-brand mt-2 mt-lg-0" href="/">
         <img class="logo" style="width: ; height: 4rem"
           
           src="https://i.postimg.cc/rwgY5r25/My-project.png"

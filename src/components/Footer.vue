@@ -1,6 +1,6 @@
 <template >
     <footer class="footer bg-light fixed-bottom mt-5">
-        <p class="lead text-dark">&copy; Copyright 2022 | All Rights Reserved.</p>
+        <p class="lead text-dark">&copy; Copyright 2023 | All Rights Reserved.</p>
     </footer>
 </template>
 <script>

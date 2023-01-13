@@ -5,26 +5,26 @@
             <h2 class="text-light">Contact me</h2>
             <form action="https://formspree.io/f/xbjbywjp" method="POST"><br>
                 <div>
-                    <label class="text-light" for="#firstname">Name</label>
+                    <label class="text-light" for="#firstname" style="font-size:20px">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
                 </div>
                 <div>
-                    <label class="text-light" for="#number">Number</label>
+                    <label class="text-light" for="#number" style="font-size:20px">Number</label>
                     <input id="surname" name="surname" type="number" placeholder="Enter your Number" required>
                 </div>
 
                 <div>
-                    <label class="text-light" for="#Email">Email</label>
+                    <label class="text-light" for="#Email" style="font-size:20px">Email</label>
                     <input id="surname" name="surname" type="text" placeholder="Enter your Email" required>
                 </div>
 
                 <div>
-                    <label class="text-light" for="#surname">Surname</label>
+                    <label class="text-light" for="#surname" style="font-size:20px">Surname</label>
                     <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
                 </div>
 
                 <div>
-                    <label class="text-light" for="#message">Message</label>
+                    <label class="text-light" for="#message" style="font-size:20px">Message</label>
                     <textarea name="message" cols="45" rows="5" placeholder="Enter your message" required></textarea>
                 </div>
                 <div class="button">

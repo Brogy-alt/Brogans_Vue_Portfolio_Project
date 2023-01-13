@@ -7,22 +7,29 @@
         <h2 class="skills-heading">My Skills</h2>
 
         <div class="skills-section ">
-        <p>HTML</p>
+            <!-- icon links here -->
+        <p style="font-size:x-large">HTML <i class="fa-brands fa-html5" style="font-size:larger"></i></p>
+
         <div class="container">
             <div class="skills html">75%</div>
         </div>
 
-        <p>CSS</p>
+            <!-- icon links here -->
+        <p style="font-size:x-large">CSS <i class="fa-brands fa-css3-alt" style="font-size:larger; padding-top: 1rem;"></i></p>
+
         <div class="container">
             <div class="skills css">70%</div>
         </div>
 
-        <p>JavaScript</p>
+           
+        <p style="font-size:x-large">JavaScript <i class="fa-brands fa-js" style="font-size:larger; padding-top: 1rem;"></i></p>
+
         <div class="container">
             <div class="skills js">55%</div>
         </div>
 
-        <p>Vue</p>
+          <!-- icon links here -->
+        <p style="font-size:x-large">Vue <i class="fa-brands fa-vuejs" style="font-size:larger; padding-top: 1rem;"></i></p>
         <div class="container">
             <div class="skills php">70%</div>
         </div>
@@ -59,8 +66,14 @@ export default {
     padding-top:3rem ;
 }
 
-.html {width: 75%; background-color: #ffffff;}
-.css {width: 70%; background-color: #ffffff;}
-.js {width: 55%; background-color: #ffffff;}
-.php {width: 70%; background-color: #ffffff;}
+.html {width: 75%; background-color: #ffffff;
+    border-style: outset;
+}
+.css {width: 70%; background-color: #ffffff;
+    border-style: outset;
+}
+.js {width: 55%; background-color: #ffffff;
+    border-style: outset;}
+.php {width: 70%; background-color: #ffffff;
+    border-style: outset;}
 </style>
