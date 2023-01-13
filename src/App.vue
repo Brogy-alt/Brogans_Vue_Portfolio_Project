@@ -1,6 +1,9 @@
 <template>
-  <NavBar></NavBar>
-  
+ 
+  <body>
+    
+  </body>
+    <NavBar/>
   <router-view/>
   <Footer/>
 </template>
@@ -54,10 +57,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 body {
-  background-image: linear-gradient(rgb(131, 3, 219 ), rgb(81, 27, 183));
-  background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh
+ background-image: linear-gradient(rgb(131, 3, 219 ), rgb(81, 27, 183));
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 100%;
+  
 }
 </style>
 

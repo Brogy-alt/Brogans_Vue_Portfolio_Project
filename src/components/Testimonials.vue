@@ -1,15 +1,15 @@
 <template>
     
         
-        <div class="container">
+        <div class="testi">
             
             <div class="row">
-                <div class="card h-100" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
+                <div class="card bg-dark h-100 col-4" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
                     <img :src="list.img" class="card-img-top" style="height:20rem;">
                     <div class="card-body" >
-                        <h5 class="card-title">{{ list.Person }}</h5>
-                        <p class="card-text">{{ list.Comment }}.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title text-light">{{ list.Person }}</h5>
+                        <p class="card-text text-light">{{ list.Comment }}.</p>
+                       
                     </div>
                 </div>
             </div>
@@ -68,6 +68,13 @@ export default {
 }
 
 </script>
-<style>
+<style scoped>
+
+.testi{
+
+    padding:7rem ;
+}
+
+
 
 </style>

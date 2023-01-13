@@ -46,7 +46,7 @@
  
 
 </template>
-<script>
+<script scoped>
 export default {
     name : 'Resume'
     

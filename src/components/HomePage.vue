@@ -50,7 +50,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 section {
     padding: 10px 0rem;
 }
@@ -66,10 +66,7 @@ main {
 
 }
 
-body{
 
-    height: 100vh ;
-}
 
 section {
     padding: 10px 0rem;

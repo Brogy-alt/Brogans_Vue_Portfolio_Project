@@ -33,7 +33,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 
 .skillsbox{
     height: 60vh;

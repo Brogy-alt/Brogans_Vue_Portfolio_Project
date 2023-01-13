@@ -1,5 +1,5 @@
 <template >
-    <footer class="footer bg-light text-center fixed-bottom mt-5">
+    <footer class="footer bg-light fixed-bottom mt-5">
         <p class="lead text-dark">&copy; Copyright 2022 | All Rights Reserved.</p>
     </footer>
 </template>
@@ -9,14 +9,9 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 
 
-
-/* Footer */
-/* .footer{
-    padding: 12px 20px;
-} */
 .footer .lead{
     text-align: center;
     margin-left: 15px;
