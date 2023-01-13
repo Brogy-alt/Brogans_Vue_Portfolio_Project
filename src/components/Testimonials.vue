@@ -57,9 +57,9 @@ export default {
 
                 },
                 {
-                    img : '',
-                    Person : '',
-                    Comment : '',
+                    img : 'https://i.postimg.cc/DZCh0QV8/Cassidy.png',
+                    Person : 'Cassidy',
+                    Comment : 'Brogan is an extremely committed worker. He doesnt let go of his attention till the job is done. He works well with others as a team and is always eager to lend a hand when needed.',
 
                 }
             ]

@@ -1,78 +1,66 @@
 <template>
-     <!-- Skills section -->
-     <section class="container">
-        <!-- <div class="skillsbox">
-        <div class="skills border border-light border-2">
-            <div class="row d-flex flex-column flex-md-row">
-                <h2 class="text-center">My Skills</h2>
+    
+    <section class="container">
 
-                <p><i class="fa-brands fa-html5"></i><br>HTML</p>
-                <div class>
-                    <div class="skills-html">50%</div>
-                </div>
+        
 
-                <p><i class="fa-brands fa-css3-alt"></i> <br>CSS</p>
-                <div>
-                    <div class="skills-css">40%</div>
-                </div>
+        <h2 class="skills-heading">My Skills</h2>
 
-                <p><i class="fa-brands fa-bootstrap"></i> <br>Bootstrap</p>
-                <div>
-                    <div class="skills-bootstrap">30%</div>
-                </div>
-            </div>
+        <div class="skills-section ">
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">75%</div>
         </div>
-        </div> -->
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">70%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">55%</div>
+        </div>
+
+        <p>Vue</p>
+        <div class="container">
+            <div class="skills php">70%</div>
+        </div>
+    </div>
 
     </section>
 
 </template>
 <script>
 export default {
-    name : 'Skills'
-    
+    name: 'Skills'
+
 }
 </script>
 <style scoped>
+.container {
+  width: 100%;
 
-.skillsbox{
-    height: 60vh;
 }
 
 .skills {
-    width: 100%;
-    height: 20em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
 }
 
+.skills-section{
+    padding-top:3rem;
+    padding-bottom:10rem;
+} 
 
-.skills-html,
-.skills-css,
-.skills-bootstrap {
-    text-align: center;
-    
-    
+.skills-heading{
+    padding-top:3rem ;
 }
 
-.skills-html {
-    width: 50%;
-    background-color: #808080;
-    border: solid black;
-}
-
-.skills-css {
-    width: 30%;
-    background-color: #808080;
-    border: solid black;
-}
-
-.skills-bootstrap {
-    width: 40%;
-    background-color: #808080;
-    border: solid black;
-}
-    
+.html {width: 75%; background-color: #ffffff;}
+.css {width: 70%; background-color: #ffffff;}
+.js {width: 55%; background-color: #ffffff;}
+.php {width: 70%; background-color: #ffffff;}
 </style>

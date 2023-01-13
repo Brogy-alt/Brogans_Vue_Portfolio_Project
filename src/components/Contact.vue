@@ -5,15 +5,26 @@
             <h2 class="text-light">Contact me</h2>
             <form action="https://formspree.io/f/xbjbywjp" method="POST"><br>
                 <div>
-                    <label for="#firstname">Name</label>
+                    <label class="text-light" for="#firstname">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
                 </div>
                 <div>
-                    <label for="#surname">Surname</label>
+                    <label class="text-light" for="#number">Number</label>
+                    <input id="surname" name="surname" type="number" placeholder="Enter your Number" required>
+                </div>
+
+                <div>
+                    <label class="text-light" for="#Email">Email</label>
+                    <input id="surname" name="surname" type="text" placeholder="Enter your Email" required>
+                </div>
+
+                <div>
+                    <label class="text-light" for="#surname">Surname</label>
                     <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
                 </div>
+
                 <div>
-                    <label for="#message">Message</label>
+                    <label class="text-light" for="#message">Message</label>
                     <textarea name="message" cols="45" rows="5" placeholder="Enter your message" required></textarea>
                 </div>
                 <div class="button">
@@ -33,6 +44,10 @@ export default {
 </script>
 <style scoped>
 
+.contact{
+    padding: 4rem;
+}
+
 input[type=submit] {
     color: white;
     background-color: #808080;
@@ -42,6 +57,12 @@ input[type=submit] {
 }
 
 input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+input[type=number] {
     width: 100%;
     padding: 10px 20px;
     margin: 8px 0px;

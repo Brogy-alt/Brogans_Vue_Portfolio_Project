@@ -79,9 +79,7 @@ export default {
 <style scoped>
 
 
-body{
-    height: 100vh;
-}
+
 
 .row{
     padding-top: 5rem ;
