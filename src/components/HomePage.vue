@@ -28,17 +28,16 @@
             </div>
             <div class="offcanvas-body">
               <div>
-                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
-                lists, etc.
+                Open the dropdown below to get access to my links
               </div>
               <div class="dropdown mt-3">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                  Dropdown button
+                  Click me
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/prodbrogy/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a> </li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/@prodbrogy/featured" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
                 </ul>
               </div>
             </div>
@@ -91,7 +90,9 @@ main {
 
 }
 
-#home {
+
+
+section {
   padding: 10px 0rem;
 }
 
@@ -115,7 +116,7 @@ main {
 
 }
 
-.header-home {
+.header-home{
   padding: 1rem;
   text-align: center;
   animation-name: fade-in;
@@ -135,6 +136,15 @@ main {
   animation-name: fade-in;
   animation-duration: 9s;
 }
+
+.btn {
+  padding: 1rem;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 10s;
+}
+
+
 
 @keyframes fade-in {
   from {
