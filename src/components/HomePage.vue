@@ -9,7 +9,11 @@
 
                 <section class="section-one">
                     <h2 class="header-home">Welcome To My Portfolio</h2>
-                    <h3 class="header-home-2">Aspiring Web developer</h3>
+                   
+                    <h4 class="header-home-2">Aspiring Web developer</h4>
+                    <h4 class="header-home-3">Music Producer</h4>
+                 
+                    
                     
                    
                     <!-- <h3 class="section-one-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi laborum quis obcaecati fugiat illo velit, sunt molestias aut repellat explicabo cum blanditiis necessitatibus asperiores eveniet debitis ducimus illum consectetur? Debitis.</h3> -->
@@ -82,7 +86,7 @@ section {
 }
 
 .header-home-2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .section-one-paragraph {
@@ -92,11 +96,25 @@ section {
   
 }
 
-.header-home, .header-home-2 {
+.header-home{
   padding: 1rem;
   text-align: center;
   animation-name: fade-in;
   animation-duration: 5s;
+}
+
+.header-home-2{
+  padding: 1rem;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 7s;
+}
+
+.header-home-3{
+  padding: 1rem;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 9s;
 }
 @keyframes fade-in {
   from {
