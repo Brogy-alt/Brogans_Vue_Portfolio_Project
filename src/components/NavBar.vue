@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="/">
-        <img class="logo" style="width: ; height: 4rem"
+        <img class="logo" style="width:11rem ; height: 4rem"
           
           src="https://i.postimg.cc/rwgY5r25/My-project.png"
           alt="MDB Logo"
@@ -32,25 +32,25 @@
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto" >
 
-        <li class="nav-item" >
+        <li class="nav-item" style="font-size:x-large"  >
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/about">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/resume">Resume</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/projects">Projects</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/skills">Skills</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/testimonials">Testimonials</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="font-size:x-large">
           <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
@@ -90,4 +90,5 @@ footer {
     height: 3rem;
 }
     
+  
 </style>
