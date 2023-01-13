@@ -9,11 +9,15 @@
     <p class="card-text">{{ list.project }}</p>
     <a :href="list.github" target="_blank" class="btn btn-outline-light ">Github</a>
     <a :href="list.netlify " target="_blank" class="btn btn-outline-light">Nelify</a>
+   
   </div>
 </div>
+
         </div>
     </div>
+ 
 
+    
 
 </template>
 <script>
@@ -88,6 +92,8 @@ export default {
 .projects{
 
     padding-bottom: 9rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 </style>

@@ -81,11 +81,6 @@ export default {
 
 
 <style scoped>
-section {
-  padding: 10px 0rem;
-}
-
-
 
 main {
 
@@ -96,9 +91,7 @@ main {
 
 }
 
-
-
-section {
+#home {
   padding: 10px 0rem;
 }
 

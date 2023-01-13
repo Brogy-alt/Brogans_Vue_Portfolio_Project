@@ -32,16 +32,8 @@ export default {
     padding: 0;
     box-sizing: border-box;
     cursor:pointer;
+    
 }
-
-/* head,
-main,
-footer header,
-body,
-footer {
-    min-width: 100%;
-} */
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -63,6 +55,8 @@ body {
  height: 100%;
   
 }
+
+
 </style>
 
 

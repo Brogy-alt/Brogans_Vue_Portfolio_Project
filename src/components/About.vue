@@ -5,7 +5,7 @@
 
     <div class="box">
         <div class="clearfix">
-            <img src="https://i.postimg.cc/JnxkqRcX/C11-Brogan-Gys-2.jpg " style="height:25rem; width:35rem; border-radius: 5%;" class="col-md-6 float-md-end mb-3 ms-md-3"
+            <img src="https://i.postimg.cc/JnxkqRcX/C11-Brogan-Gys-2.jpg " style="height:25rem; width:35rem; border-radius: 10%;" class="col-md-6 float-md-end mb-3 ms-md-3"
                 alt="tis me ">
 
                 <h2 style="padding:20px; ">About Me</h2>
