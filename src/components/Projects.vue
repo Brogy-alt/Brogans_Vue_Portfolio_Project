@@ -1,6 +1,8 @@
 <template>
 
+
         <div class="projects">
+            <h2 class="text-center"> Projects</h2>
         <div class="row">
     
         <div class="card bg-dark mx-auto" v-for="list in items" :key="list" style="width: 25rem;">
@@ -8,7 +10,7 @@
   <div class="card-body">
     <p class="card-text">{{ list.project }}</p>
     <a :href="list.github" target="_blank" class="btn btn-outline-light ">Github</a>
-    <a :href="list.netlify " target="_blank" class="btn btn-outline-light">Nelify</a>
+    <a :href="list.netlify " target="_blank" class="btn btn-outline-light">Netlify</a>
    
   </div>
 </div>

@@ -45,7 +45,7 @@ export default {
 <style scoped>
 
 .contact{
-    padding: 4rem;
+    padding: 1rem;
 }
 
 input[type=submit] {
@@ -89,6 +89,10 @@ textarea:hover {
     box-sizing: border-box;
     border-radius: 4px;
 
+}
+
+.button{
+    padding-bottom: 2rem;
 }
 
     

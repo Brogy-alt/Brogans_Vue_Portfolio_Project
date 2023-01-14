@@ -52,7 +52,7 @@ export default {
 
 .skills {
   text-align: right;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   color: rgb(0, 0, 0);
 }
@@ -63,7 +63,7 @@ export default {
 } 
 
 .skills-heading{
-    padding-top:3rem ;
+    padding-top:1rem ;
 }
 
 .html {width: 75%; background-color: #ffffff;

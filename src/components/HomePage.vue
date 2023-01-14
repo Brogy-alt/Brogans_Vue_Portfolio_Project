@@ -15,10 +15,13 @@
           
           <!-- Offcanvas thing for socials -->
 
+          <div class="btn-socials">
+
           <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
             aria-controls="offcanvasExample">
             Reach out to me
           </button>
+        </div>
 
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel">
@@ -44,27 +47,7 @@
           </div>
 
         </section>
-
-        <!-- <div class=" home-text col">
-                    <h1 class="name lead ">Brogan Gys</h1>
-                    <h5 class="lead">Aspiring developer</h5>
-                    <h5 class="lead">Music producer</h5>
-                </div> -->
-        <!-- <div class="col">
-                    <img src="https://i.postimg.cc/Zn4hrwKW/C11-Brogan-Gys-3.jpg" style="max-width: 60%; height: 50;"
-                        alt="Brogans Profile" class="rounded mx-auto d-block">
-                        <div class="pt-3">
-                        <center>
-                            <a class="btn btn-lg btn-floating border-light text-light" href="https://www.instagram.com/prodbrogy/" target="_blank" role="button"><i class="fab fa-instagram"></i>
-                            </a>
-                            <a class="btn btn-lg btn-floating border-light text-light" href="https://twitter.com/_Brogy_ " target="_blank" role="button"><i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="btn btn-lg btn-floating border-light text-light" href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ" target="_blank" role="button"><i class="fab fa-youtube"></i>
-                            </a>
-                            
-                        </center>
-                    </div>
-                </div> -->
+        
       </div>
     </section>
 
@@ -142,6 +125,10 @@ section {
   text-align: center;
   animation-name: fade-in;
   animation-duration: 10s;
+}
+
+.btn-socials{
+  padding-bottom: 5rem;
 }
 
 

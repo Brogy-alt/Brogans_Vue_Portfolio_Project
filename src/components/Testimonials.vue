@@ -1,7 +1,11 @@
 <template>
     
+
+    <h2 class="text-center">Testimonials</h2>
         
         <div class="testi">
+
+           
             
             <div class="row">
                 <div class="card bg-dark h-100 col-4" v-for="list in items" :key="list" style="width:25rem;height:25rem; margin: auto;">

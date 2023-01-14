@@ -12,7 +12,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav" style="padding-left: 13rem;" >
+      <ul class="navbar-nav mx-auto"  >
         <li class="nav-item" >
           <a class="nav-link active text-light" aria-current="page" href="/">Home</a>
         </li>
@@ -23,7 +23,10 @@
           <a class="nav-link text-light" href="/resume">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="/projects">Skills</a>
+          <a class="nav-link text-light" href="/skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="/testimonials">Testimonials</a>
