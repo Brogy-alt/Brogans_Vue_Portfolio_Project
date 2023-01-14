@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 *,
 *::after,
@@ -55,6 +56,7 @@ body {
  height: 100%;
   
 }
+
 
 
 </style>

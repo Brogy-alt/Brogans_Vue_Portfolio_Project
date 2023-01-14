@@ -4,8 +4,8 @@
         <div class="testi">
             
             <div class="row">
-                <div class="card bg-dark h-100 col-4" v-for="list in items" :key="list" style="width:25rem; margin: auto;">
-                    <img :src="list.img" class="card-img-top" style="height:20rem;">
+                <div class="card bg-dark h-100 col-4" v-for="list in items" :key="list" style="width:25rem;height:25rem; margin: auto;">
+                    <img :src="list.img" class="card-img-top img-fluid" style="height:20rem;padding: 30px;width: 100%;">
                     <div class="card-body" >
                         <h5 class="card-title text-light">{{ list.Person }}</h5>
                         <p class="card-text text-light">{{ list.Comment }}.</p>
@@ -73,6 +73,35 @@ export default {
 .testi{
 
     padding:7rem ;
+}
+
+@media (max-width: 500px) {
+   
+   .card {
+       scale: 0,4;
+   }
+
+}
+@media (max-width: 400px) {
+   
+   .card {
+       scale: 0,2;
+   }
+
+}
+@media (max-width: 300px) {
+   
+   .card {
+       scale: 0,2;
+   }
+
+}
+@media (max-width: 300px) {
+   
+   .card {
+       scale: 0,2;
+   }
+
 }
 
 

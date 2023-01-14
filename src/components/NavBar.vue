@@ -1,62 +1,38 @@
 <template>
     <header>
-    
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- Container wrapper -->
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="/">
-        <img class="logo" style="width:11rem ; height: 4rem"
-          
-          src="https://i.postimg.cc/rwgY5r25/My-project.png"
-          alt="MDB Logo"
-          loading="lazy"
-        />
+    <a class="navbar-brand mt-2 mt-lg-0 text-light" style=" font-size:xx-large ; padding-left: 20px;font-family: 'Carter One', cursive;" href="/">
+        
+       BROGAN GYS
       </a>
-      <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto" >
-
-        <li class="nav-item" style="font-size:x-large"  >
-          <a class="nav-link" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" style="padding-left: 13rem;" >
+        <li class="nav-item" >
+          <a class="nav-link active text-light" aria-current="page" href="/">Home</a>
         </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/about">About</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/about">About</a>
         </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/resume">Resume</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/resume">Resume</a>
         </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/projects">Projects</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/projects">Skills</a>
         </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/skills">Skills</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/testimonials">Testimonials</a>
         </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/testimonials">Testimonials</a>
-        </li>
-        <li class="nav-item" style="font-size:x-large">
-          <a class="nav-link" href="/contact">Contact</a>
-        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/contact">Contact</a>
+        </li> 
       </ul>
-     
     </div>
-    
   </div>
 </nav>
 

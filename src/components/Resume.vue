@@ -1,40 +1,15 @@
 <template >
-     
-    <!-- <section class="container">
-       <div class="resume">
-           <div class="col">
-               <br>
-               <h2>Work experience</h2><br>
-           </div>
-           <div class="lead">
-               <ul>
-                   <li>Matriculated in 2022</li>
-                   <li>Passed with bachelors</li>
-                   <li>Currently studying at Life Choices</li>
-               </ul>
-           </div>
-       </div>
-   </section> -->
 
    <section id="time-line">
         <h2 class="text-center">Resume</h2>
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="content">
+                    <div id="content" v-for="list in items" :key="list">
                         <ul class="timeline-1 text-light">
                             <li class="event">
-                                <h4 class="mb-3">High school</h4>
-                                <p>Matriculated at Symphony High School in 2021.</p>
-                            </li>
-                            <li class="event">
-                                <h4 class="mb-3 pt-3">Part-time music producing</h4>
-                                <p>Spent my time producing music and improving on those skills.</p>
-                            </li>
-                            <li class="event">
-                                <h4 class="mb-3 pt-3">Life Choices Academy</h4>
-                                <p>Currenlty studying at life choices.
-                                </p>
+                                <h4 class="mb-3">{{ list.title }}</h4>
+                                <p>{{ list.text }}</p>
                             </li>
                         </ul>
                     </div>
@@ -48,10 +23,45 @@
 </template>
 <script scoped>
 export default {
-    name : 'Resume'
+    name : 'Resume',
+  
     
+
+
+    data(){
+        return {
+            items : [
+                {
+                    title : 'High school',
+                   text :'Matriculated at Symphony High School in 2021.',
+                  
+                },
+                {
+                    title : 'Part-time music producing',
+                   text :'Spent my time producing music and improving on those skills.',
+                  
+                },
+                {
+                    title : 'Life Choices Academy',
+                   text :'Currenlty studying at life choices',
+                  
+                }
+              ]
+            }
+        }
+        
 }
+
+
+
+
+
+
 </script>
+
+
+
+
 <style>
 
 .resume{
