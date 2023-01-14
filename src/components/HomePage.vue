@@ -70,6 +70,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width:100%
 
 }
 
@@ -80,13 +81,12 @@ section {
 }
 
 .section-one {
-  margin: 11rem 2rem 0;
+  /* margin: 11rem 2rem 0; */
+  width: 100%;
+  
 
 }
 
-.header-home {
-  font-size: 5.5rem;
-}
 
 .header-home-2 {
   font-size: 2rem;
@@ -100,10 +100,12 @@ section {
 }
 
 .header-home{
-  padding: 1rem;
+  padding-top: 10rem;
   text-align: center;
   animation-name: fade-in;
   animation-duration: 5s;
+  font-size: 5.5rem;
+  width: 100%;
 }
 
 .header-home-2 {
@@ -141,5 +143,12 @@ section {
   to {
     opacity: 1;
   }
+}
+
+@media (max-width:300px) {
+  .header-home {
+    padding-top: 2rem;
+  }
+  
 }
 </style>

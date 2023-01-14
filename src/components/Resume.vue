@@ -62,26 +62,16 @@ export default {
 
 
 
-<style>
+<style scoped>
 
 .resume{
     color: #FDF7FF;
 }
 
-section {
-    padding: 10px 0rem;
-}
 
-head,
-main,
-footer header,
-body,
-footer {
-    min-width: 100%;
-}
 
-li {
-    list-style: none;
+#time-line{
+  padding: 3rem;
 }
 
 .timeline-1 {

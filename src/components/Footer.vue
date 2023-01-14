@@ -1,7 +1,16 @@
 <template >
-    <footer class="footer bg-light fixed-bottom mt-5">
+    <!-- <footer class="footer bg-light  mt-5">
         <p class="lead text-dark">&copy; Copyright 2023 | All Rights Reserved.</p>
-    </footer>
+    </footer> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    
+    <p class="lead text-light mx-auto">&copy; Copyright 2023 | All Rights Reserved.</p>
+
+    </div>
+</nav>
+
 </template>
 <script>
 export default {
@@ -14,7 +23,8 @@ export default {
 
 .footer .lead{
     text-align: center;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    width: 100%;
 
 }
 
